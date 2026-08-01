@@ -37,6 +37,14 @@ trigger_keywords:
 
 详细的方法论、各场景产出清单、指标体系规范、SQL规范、可视化规范、AB实验规范、数据安全规范、质量检查清单均存放在 `references/数据分析方法论.md`，在执行前必须读取对应章节。
 
+## 记忆系统
+
+本技能遵循 `~/.workbuddy/MEMORY.md` 中定义的融合记忆管理规则（v2.1）。
+
+- **执行前**：读取 `.workbuddy/memory/MEMORY.md` 本技能对应分段 + `.workbuddy/memory/YYYY-MM-DD.md`（今日日志，如存在）
+- **执行后**：追加 `[data-analyst-guide] 场景描述 → 关键决策` 到 `.workbuddy/memory/YYYY-MM-DD.md`；如有可复用决策，去重后追加到 MEMORY.md 对应分段
+- **轮转检查**：写入后检查日志是否超 30 天 / 35 篇，满足则按规则归档
+
 ## 执行流程
 
 按以下 5 步顺序执行，不可跳步。
