@@ -37,7 +37,6 @@ zip -r data-analyst-guide.zip data-analyst-guide/ ~/.workbuddy/skills/data-analy
 ```bash
 git clone https://github.com/genapohub/data-analyst-guide.git
 zip -r data-analyst-guide.zip data-analyst-guide/
-zip -r data-analyst-guide.zip data-analyst-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
 
