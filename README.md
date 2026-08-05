@@ -29,8 +29,7 @@
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/data-analyst-guide.git
-zip -r data-analyst-guide.zip data-analyst-guide/ ~/.workbuddy/skills/data-analyst-guide
+git clone https://github.com/genapohub/data-analyst-guide.git ~/.workbuddy/skills/data-analyst-guide
 ```
 
 **方式二：ZIP导入**
@@ -53,12 +52,10 @@ zip -r data-analyst-guide.zip data-analyst-guide/
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/data-analyst-guide.git
-zip -r data-analyst-guide.zip data-analyst-guide/ ~/.codex/skills/data-analyst-guide
+git clone https://github.com/genapohub/data-analyst-guide.git ~/.codex/skills/data-analyst-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/data-analyst-guide.git
-zip -r data-analyst-guide.zip data-analyst-guide/ ~/.cc-switch/skills/data-analyst-guide
+git clone https://github.com/genapohub/data-analyst-guide.git ~/.cc-switch/skills/data-analyst-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$data-analyst-guide` 手动调用。
@@ -66,8 +63,7 @@ zip -r data-analyst-guide.zip data-analyst-guide/ ~/.cc-switch/skills/data-analy
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/data-analyst-guide.git
-zip -r data-analyst-guide.zip data-analyst-guide/ ~/.cursor/skills-cursor/data-analyst-guide
+git clone https://github.com/genapohub/data-analyst-guide.git ~/.cursor/skills-cursor/data-analyst-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$data-analyst-guide` 手动调用。
